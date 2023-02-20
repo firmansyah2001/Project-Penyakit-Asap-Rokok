@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img2/LOGO UTM.png" />
+    <title>Menu Asma</title>
+    <!-- CSS -->
+    <style>
+      *,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: white;
+      }
+      /* NAVBAR */
+      .navbar {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        box-shadow: -1px -7px 20px 0px gray;
+      }
+      .kotak_navbar {
+        position: relative;
+        top: 30%;
+        margin: 0;
+      }
+      .posisi_huruf_navbar {
+        float: left;
+        display: block;
+        margin: 0px 15px 0px 15px;
+      }
+      .huruf_navbar {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      .huruf_kelompok {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      .huruf_navbar:hover {
+        background-color: rgb(201, 201, 201);
+      }
+      .menu_mobile {
+        position: relative;
+        float: right;
+        display: none;
+      }
+      .huruf_menu_mobile {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid gray;
+        color: gray;
+        font-family: "Helvetica", sans-serif;
+      }
+      /* KOTAK UTAMA */
+      .kotak_utama {
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        background: black;
+      }
+      .kotak_menu1 {
+        position: absolute;
+        top: 32%;
+        right: 27%;
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        background-color: white;
+      }
+      .kotak_menu2 {
+        position: absolute;
+        top: 32%;
+        left: 27%;
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        background-color: white;
+      }
+      .kotak_menu1:hover {
+        background-color: wheat;
+      }
+      .kotak_menu2:hover {
+        background-color: wheat;
+      }
+      .huruf_utama {
+        font-weight: bold;
+        font-family: "Helvetica", sans-serif;
+      }
+      /* FOOTER */
+      .footer {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        /*box-shadow: -1px -7px 20px 0px gray;*/
+      }
+      .kotak_footer {
+        position: relative;
+        top: 30%;
+        margin: 0;
+      }
+      .huruf_footer {
+        position: absolute;
+        left: 45%;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- BAGIAN NAVBAR -->
+    <nav class="navbar">
+      <div class="menu_mobile">
+        <a class="huruf_menu_mobile" href="#">MENU</a>
+      </div>
+      <ul class="kotak_navbar" style="float: left; left: 5%">
+        <li class="posisi_huruf_navbar">
+          <a href="https://www.trunojoyo.ac.id/"><img src="img2/LOGO UTM.png" width="20px" alt="" /></a>
+        </li>
+        <li class="posisi_huruf_navbar huruf_kelompok" style="left: -13%; position: relative">KELOMPOK X</li>
+      </ul>
+      <ul class="kotak_navbar" style="float: right; right: 5%">
+        <li class="posisi_huruf_navbar"><a class="huruf_navbar" href="/Penyakit_Akibat_Asap_Rokok/index.html">HOME</a></li>
+      </ul>
+    </nav>
+    <!-- BAGIAN MENGAJAK BERHENTI MEROKOK -->
+    <div class="kotak_utama">
+      <br /><br /><br />
+      <div class="huruf_utama" style="font-size: 30px; text-align: center; color: white">Silahkan pilih salah satu menu.</div>
+      <a href="literasi_Asma.html">
+        <div class="kotak_menu1">
+          <div class="huruf_utama" style="font-size: 20px; text-align: center; color: black; margin-top: 40%">LITERASI ASMA</div>
+        </div>
+      </a>
+      <a href="deteksi_asma.html">
+        <div class="kotak_menu2">
+          <div class="huruf_utama" style="font-size: 20px; text-align: center; color: black; margin-top: 40%">DETEKSI ASMA</div>
+        </div>
+      </a>
+    </div>
+    <!-- BAGIAN FOOTER -->
+    <div class="footer">
+      <div class="kotak_footer">
+        <div class="huruf_footer">&COPY; by-Kelompok X</div>
+      </div>
+    </div>
+  </body>
+</html>
